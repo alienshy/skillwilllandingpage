@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 1200px;
+}
+
+body {
+  background-color: #0F172A;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 70px 0px;
+}
+main .Latest {
+  color: white;
+  font-size: 40px;
+}
+main .Posts {
+  color: #11ADED;
+  font-size: 40px;
+}
+
+nav {
+  padding: 40px 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 5px;
+}
+nav a i {
+  font-size: 30px;
+  color: #11ADED;
+}
+nav a h1 {
+  color: #11ADED;
+}
+nav ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  justify-content: space-between;
+}
+nav ul a {
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    padding: 40px 10px;
+  }
+}
+section {
+  width: 100%;
+}
+section .sectioncon {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+section .sectioncon span {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px;
+}
+section .sectioncon span .Recenttext {
+  color: white;
+  font-size: 40px;
+}
+section .sectioncon span .Projectstext {
+  color: #11ADED;
+  font-size: 40px;
+}
+section .sectioncon .project {
+  display: flex;
+  padding: 40px 20px;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151E31;
+}
+section .sectioncon .project div i {
+  color: #11ADED;
+  font-size: 130px;
+}
+section .sectioncon .project .text {
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  width: 80%;
+}
+section .sectioncon .project .text h2 {
+  color: white;
+  font-size: 26px;
+}
+section .sectioncon .project .text p {
+  color: rgb(121, 121, 121);
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 100%;
+  }
+  section .sectioncon .project {
+    padding: 10px;
+    border-radius: 20px;
+    gap: 10px;
+  }
+  section .sectioncon .project .text {
+    padding: 10px;
+    gap: 10px;
+    width: 70%;
+  }
+}
+.crud {
+  width: 100%;
+}
+.crud .crudcon {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.crud .crudcon .cruds {
+  background-color: rgb(30, 41, 59);
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  gap: 25px;
+}
+.crud .crudcon .cruds .imgdivcrud {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.crud .crudcon .cruds .imgdivcrud img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+.crud .crudcon .cruds p {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+}
+.crud .crudcon .cruds h5 {
+  color: white;
+  text-align: center;
+  color: gray;
+  font-size: 25px;
+  font-weight: 10;
+}
+.crud .crudcon .cruds h6 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 1200px) {
+  .crud {
+    width: 100%;
+  }
+  .crud .crudcon .cruds {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+@media screen and (max-width: 800px) {
+  .crud {
+    width: 100%;
+  }
+  .crud .crudcon {
+    padding: 10px;
+    justify-content: center;
+  }
+  .crud .crudcon .cruds {
+    flex: 1 1 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
+}
+footer {
+  width: 100%;
+}
+footer .con {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+footer .con h3 {
+  font-weight: 100;
+  font-size: 20px;
+}
+footer .con div {
+  display: flex;
+  gap: 20px;
+}
+footer .con div i {
+  font-size: 25px;
+}/*# sourceMappingURL=style.css.map */

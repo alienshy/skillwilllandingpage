@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 1200px;
+}
+body{
+    background-color: #0F172A;
+}
+
+$color1:#11ADED;
+
+main{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 70px 0px;
+    .Latest{
+        color: white;
+        font-size: 40px;
+
+    }
+    .Posts{
+        color: $color1;
+        font-size: 40px;
+        
+    }
+}
+
+
+
+
+@import './nav';
+@import 'section';
+@import 'crud';
+@import 'footer';

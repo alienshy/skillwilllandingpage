@@ -1,0 +1,75 @@
+section{
+    width: 100%;
+    .sectioncon{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+
+        span{
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            padding: 20px 0px;
+            .Recenttext{
+                color: white;
+                font-size: 40px;
+
+            }
+            .Projectstext{
+                color: $color1;
+                font-size: 40px;
+                
+            }
+        }
+        .project{
+            display: flex;
+            padding: 40px 20px;
+            border-radius: 20px;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #151E31;
+            div{
+                i{
+                    color: $color1;
+                    font-size: 130px;
+                }
+            }
+            .text{
+                display: flex;
+                padding: 20px 0px;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 20px;
+              
+                h2{
+                    color: white;
+                    font-size: 26px;
+                }
+                p{
+                    color: rgb(121, 121, 121);
+                }
+                width: 80%;
+            }
+        }
+
+    }
+}
+@media screen and (max-width:800px) {
+    section{
+        width: 100%;
+        .sectioncon{
+            .project{
+                padding: 10px;
+                border-radius: 20px;
+                gap: 10px;
+                .text{
+                    padding: 10px;
+                    gap: 10px;
+                    width: 70%;
+                }
+            }
+    
+        }
+    }
+}

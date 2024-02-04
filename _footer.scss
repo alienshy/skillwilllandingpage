@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    .con{
+     width: 100%;
+    padding: 50px;
+    display:flex;
+    justify-content: space-between;
+    color:gray;
+    h3{
+        font-weight: 100;
+        font-size: 20px;
+    }
+    div{
+        display: flex;
+        gap: 20px;
+        i{
+            font-size: 25px;
+        }
+    }
+    }
+   
+}
